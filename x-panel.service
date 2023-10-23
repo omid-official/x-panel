@@ -1,0 +1,12 @@
+[Unit]
+Description=x-panel Service
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/usr/local/x-panel/
+ExecStart=/usr/local/x-panel/x-panel
+
+[Install]
+WantedBy=multi-user.target
