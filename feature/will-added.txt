@@ -1,1 +1,2 @@
 1. More security and anti-brut force in the admin login section (by account lock out)
+2. Add comments and documentation to the code
